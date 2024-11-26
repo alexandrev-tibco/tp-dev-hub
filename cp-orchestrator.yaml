@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cp-orchestrator
+  description: Chains one or more actions as part of user actions on the platform.
+spec:
+  owner: team-platform
+  type: service
+  lifecycle: production
+  subcomponentOf: control-plane

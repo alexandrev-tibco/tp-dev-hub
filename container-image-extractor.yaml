@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: container-image-extractor
+  description: Extracts contents of Docker images to specified locations.
+spec:
+  owner: team-platform
+  type: service
+  lifecycle: production
+  subcomponentOf: control-plane

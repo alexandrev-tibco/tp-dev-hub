@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: identity-management
+  description: Authorizes users authenticated from IdPs; OAuth Server.
+spec:
+  owner: team-platform
+  type: service
+  lifecycle: production
+  subcomponentOf: control-plane

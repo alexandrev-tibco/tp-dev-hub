@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: resource-set-operator
+  description: Dynamically creates Kubernetes resources.
+spec:
+  owner: team-platform
+  type: service
+  lifecycle: production
+  subcomponentOf: control-plane

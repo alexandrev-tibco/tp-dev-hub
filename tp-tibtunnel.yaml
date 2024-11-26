@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tp-tibtunnel
+  description: Provides hybrid connectivity for a data plane.
+spec:
+  owner: team-platform
+  type: service
+  lifecycle: production
+  subcomponentOf: data-plane

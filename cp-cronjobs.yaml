@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cp-cronjobs
+  description: Performs periodic tasks such as monitoring and cleanup operations.
+spec:
+  owner: team-platform
+  type: service
+  lifecycle: production
+  subcomponentOf: control-plane

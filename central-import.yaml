@@ -1,0 +1,37 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: tibco-platform-central
+  description: Central location for all TIBCO Platform YAML files.
+spec:
+  type: url
+  targets:
+    - ./system.yaml
+    - ./control-plane.yaml
+    - ./data-plane.yaml
+    - ./admin-webserver.yaml
+    - ./web-servers.yaml
+    - ./identity-management.yaml
+    - ./cp-orchestrator.yaml
+    - ./cp-email-service.yaml
+    - ./cp-cronjobs.yaml
+    - ./cp-user-subscriptions.yaml
+    - ./tp-cp-pengine.yaml
+    - ./tp-cp-identity-provider.yaml
+    - ./tp-cp-proxy.yaml
+    - ./router.yaml
+    - ./compute-services.yaml
+    - ./hybrid-proxy.yaml
+    - ./hybrid-server.yaml
+    - ./resource-set-operator.yaml
+    - ./container-image-extractor.yaml
+    - ./tp-cp-monitoring-service.yaml
+    - ./tp-tibtunnel.yaml
+    - ./provisioner-agent.yaml
+    - ./artifact-manager.yaml
+    - ./oauth2-proxy.yaml
+    - ./o11y-service.yaml
+    - ./jaeger-collector.yaml
+    - ./jaeger-query.yaml
+    - ./opentelemetry-collector-contrib.yaml
+    - ./tp-dp-monitor-agent.yaml

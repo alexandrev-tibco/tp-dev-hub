@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: control-plane
+  description: TIBCO Control Plane
+spec:
+  owner: team-platform
+  type: service
+  lifecycle: production
+  system: tibco-platform-system

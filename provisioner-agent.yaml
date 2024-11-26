@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: provisioner-agent
+  description: Provides APIs to install/uninstall components/capabilities using Helm charts.
+spec:
+  owner: team-platform
+  type: service
+  lifecycle: production
+  subcomponentOf: data-plane

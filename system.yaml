@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: tibco-platform-system
+  description: The TIBCO Platform System encompassing Control Plane and Data Plane.
+spec:
+  owner: team-platform
+  domain: tibco

@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: opentelemetry-collector-contrib
+  description: Processes and exports logs, metrics, and traces to observability backends.
+spec:
+  owner: team-platform
+  type: service
+  lifecycle: production
+  subcomponentOf: data-plane

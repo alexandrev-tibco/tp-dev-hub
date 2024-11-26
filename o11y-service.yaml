@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: o11y-service
+  description: Provides query services for logs and metrics data from observability backends.
+spec:
+  owner: team-platform
+  type: service
+  lifecycle: production
+  subcomponentOf: data-plane

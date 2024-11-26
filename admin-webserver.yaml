@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: admin-webserver
+  description: Serves the TIBCO Platform Console (Admin) Web UI for managing subscriptions and configurations.
+spec:
+  owner: team-platform
+  type: service
+  lifecycle: production
+  subcomponentOf: control-plane

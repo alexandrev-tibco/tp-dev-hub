@@ -4,6 +4,8 @@ metadata:
   description: Simple Identity Provider, authenticating users via passwords.
   name: tp-cp-identity-provider
 spec:
+  dependsOn:
+  - component:identity-management
   lifecycle: production
   owner: team-platform
   subcomponentOf: control-plane

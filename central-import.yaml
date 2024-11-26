@@ -35,3 +35,8 @@ spec:
     - ./jaeger-query.yaml
     - ./opentelemetry-collector-contrib.yaml
     - ./tp-dp-monitor-agent.yaml
+    - ./central-import.yaml
+    - ./observability-services.yaml
+    - ./core-components.yaml
+    - ./integration-capability.yaml
+    - ./capabilities.yaml

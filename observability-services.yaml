@@ -1,10 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  description: Parent component for Jaeger, o11y-service, and OpenTelemetry collector
+    services.
   name: observability-services
-  description: Parent component for Jaeger, o11y-service, and OpenTelemetry collector services.
 spec:
-  owner: team-platform
-  type: service
   lifecycle: production
-  subcomponentOf: data-plane
+  owner: team-platform
+  subcomponentOf: core-components
+  type: service

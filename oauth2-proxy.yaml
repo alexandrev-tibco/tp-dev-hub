@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: oauth2-proxy
   description: Authorizes TIBCO apps in DP via OAuth.
+  name: oauth2-proxy
 spec:
-  owner: team-platform
-  type: service
   lifecycle: production
-  subcomponentOf: data-plane
+  owner: team-platform
+  subcomponentOf: capabilities
+  type: service

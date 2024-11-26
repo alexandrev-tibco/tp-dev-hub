@@ -1,10 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tp-cp-identity-provider
   description: Simple Identity Provider, authenticating users via passwords.
+  name: tp-cp-identity-provider
 spec:
-  owner: team-platform
-  type: service
+  dependsOn:
+  - identity-management
   lifecycle: production
+  owner: team-platform
   subcomponentOf: control-plane
+  type: service

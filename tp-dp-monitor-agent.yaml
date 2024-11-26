@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tp-dp-monitor-agent
   description: Reports on DP's capability health and user app status.
+  name: tp-dp-monitor-agent
 spec:
-  owner: team-platform
-  type: service
   lifecycle: production
-  subcomponentOf: data-plane
+  owner: team-platform
+  subcomponentOf: core-components
+  type: service

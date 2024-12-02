@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  description: Developer Hub service.
+  name: developerhub
+spec:
+  dependsOn:
+  - postgresql
+  owner: team@example.com
+  parent: developer-hub
+  type: service

@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  description: EMS capability.
+  name: ems
+spec:
+  owner: team@example.com
+  parent: capabilities
+  type: capability

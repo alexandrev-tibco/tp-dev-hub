@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  description: Quasar Broker component.
+  name: quasar-broker
+spec:
+  owner: team@example.com
+  parent: pulsar
+  type: service

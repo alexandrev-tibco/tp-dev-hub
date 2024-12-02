@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  description: BW Provisioner component.
+  name: bwprovisioner
+spec:
+  dependsOn:
+  - artifactmanager
+  owner: team@example.com
+  parent: businessworks
+  type: service

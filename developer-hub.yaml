@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  description: Developer Hub capability.
+  name: developer-hub
+spec:
+  owner: team@example.com
+  parent: capabilities
+  type: capability

@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  description: Pulsar capability.
+  name: pulsar
+spec:
+  owner: team@example.com
+  parent: capabilities
+  type: capability

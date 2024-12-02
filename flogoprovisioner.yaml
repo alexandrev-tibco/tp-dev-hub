@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  description: Flogo Provisioner component.
+  name: flogoprovisioner
+spec:
+  dependsOn:
+  - artifactmanager
+  owner: team@example.com
+  parent: flogo
+  type: service

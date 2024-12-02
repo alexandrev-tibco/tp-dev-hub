@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  description: O2Auth Proxy component for BusinessWorks.
+  name: oauth2-proxy-bw
+spec:
+  owner: team-platform
+  type: service

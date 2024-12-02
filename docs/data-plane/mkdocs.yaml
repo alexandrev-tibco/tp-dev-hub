@@ -1,0 +1,12 @@
+site_name: "TIBCO Platform Data Plane"
+site_description: "TIBCO Platform Data Plane Documentation"
+
+nav:
+  - Introduction: index.md
+  - Control Plane - Data Plane Communication: cp-dp-comm.md
+  - Capability Provisioning: capability-provisioning.md
+  - Integration Capability Toplogy: int-capbility-topology.md
+  - App Provisioning Flow: app-provisioning.md
+  - Observability: observability.md
+plugins:
+  - techdocs-core

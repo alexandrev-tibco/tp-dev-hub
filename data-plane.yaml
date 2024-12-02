@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: data-plane
   description: TIBCO Data Plane
+  annotations:
+    backstage.io/techdocs-ref: dir:./docs/data-plane
 spec:
   owner: team-platform
   type: service

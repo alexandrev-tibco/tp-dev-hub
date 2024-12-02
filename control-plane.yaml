@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: control-plane
   description: TIBCO Control Plane
+annotations:
+  backstage.io/techdocs-ref: dir:./docs/control-plane
 spec:
   owner: team-platform
   type: service

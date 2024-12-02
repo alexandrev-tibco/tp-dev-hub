@@ -3,7 +3,6 @@ site_description: "TIBCO Platform Control Plane Documentation"
 
 nav:
   - Introduction: index.md
-  - Reference Architecture: platform-reference-architecture.md
 
 plugins:
   - techdocs-core

@@ -7,3 +7,4 @@ spec:
   type: business-unit
   profile:
     displayName: TIBCO Platform Team
+  children: []

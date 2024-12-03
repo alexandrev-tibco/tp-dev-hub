@@ -42,6 +42,7 @@ spec:
     - ./postgresql.yaml
     - ./provisioner-agent.yaml
     - ./pulsar.yaml
+    - ./cp-o11y-service.yaml
     - ./quasar-bookie.yaml
     - ./quasar-broker.yaml
     - ./quasar-proxy.yaml

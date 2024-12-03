@@ -23,7 +23,6 @@ spec:
     - ./data-plane.yaml
     - ./developer-hub.yaml
     - ./developerhub.yaml
-    - ./docs
     - ./ems-service.yaml
     - ./ems.yaml
     - ./flogo.yaml

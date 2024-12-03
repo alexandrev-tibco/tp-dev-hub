@@ -13,7 +13,6 @@ spec:
     - ./capabilities.yaml
     - ./central-import.yaml
     - ./compute-services.yaml
-    - ./container-image-extractor.yaml
     - ./control-plane.yaml
     - ./core-components.yaml
     - ./cp-cronjobs.yaml

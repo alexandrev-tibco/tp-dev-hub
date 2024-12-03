@@ -3,3 +3,6 @@ site_description: "TIBCO Platform Control Tower Documentation"
 
 nav:
   - Introduction: index.md
+
+
+docs_dir: control-tower/docs

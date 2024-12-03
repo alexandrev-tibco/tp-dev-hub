@@ -8,3 +8,5 @@ nav:
   - Integration Capability Toplogy: int-capbility-topology.md
   - App Provisioning Flow: app-provisioning.md
   - Observability: observability.md
+
+docs_dir: data-plane/docs

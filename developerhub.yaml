@@ -7,5 +7,5 @@ spec:
   dependsOn:
   - postgresql
   owner: team@example.com
-  parent: developer-hub
+  subcomponentOf: developer-hub
   type: service

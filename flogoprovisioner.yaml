@@ -7,5 +7,6 @@ spec:
   dependsOn:
   - artifactmanager
   owner: team@example.com
-  parent: flogo
+  subcomponentOf: flogo
   type: service
+  lifecycle: production

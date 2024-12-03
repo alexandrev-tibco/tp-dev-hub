@@ -5,5 +5,5 @@ metadata:
   name: developer-hub
 spec:
   owner: team@example.com
-  parent: capabilities
+  subcomponentOf: capabilities
   type: capability

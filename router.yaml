@@ -8,3 +8,4 @@ spec:
   type: service
   lifecycle: production
   subcomponentOf: control-plane
+  dependsOn: ['component:default/cp-web-servers-ui', 'component:default/cp-orchestrator', 'component:default/cp-o11y-service']

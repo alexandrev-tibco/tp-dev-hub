@@ -9,3 +9,4 @@ spec:
   owner: team@example.com
   subcomponentOf: developer-hub
   type: service
+  lifecycle: production

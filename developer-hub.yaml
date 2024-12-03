@@ -7,3 +7,4 @@ spec:
   owner: team@example.com
   subcomponentOf: capabilities
   type: capability
+  lifecycle: production

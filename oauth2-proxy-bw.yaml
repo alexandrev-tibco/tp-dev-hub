@@ -6,3 +6,4 @@ metadata:
 spec:
   owner: team-platform
   type: service
+  lifecycle: production

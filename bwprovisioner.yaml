@@ -5,7 +5,7 @@ metadata:
   name: bwprovisioner
 spec:
   dependsOn:
-  - artifactmanager
+  - component:artifactmanager
   owner: team@example.com
   subcomponentOf: businessworks
   type: service

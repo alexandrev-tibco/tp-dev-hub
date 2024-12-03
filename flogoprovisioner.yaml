@@ -5,7 +5,7 @@ metadata:
   name: flogoprovisioner
 spec:
   dependsOn:
-  - artifactmanager
+  - component:artifactmanager
   owner: team@example.com
   subcomponentOf: flogo
   type: service

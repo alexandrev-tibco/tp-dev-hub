@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-platform
+  description: TIBCO Platform Team
+spec:
+  type: business-unit
+  profile:
+    displayName: TIBCO Platform Team

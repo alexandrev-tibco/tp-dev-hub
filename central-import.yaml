@@ -59,4 +59,5 @@ spec:
     - ./tp-dp-monitor-agent.yaml
     - ./tp-tibtunnel.yaml
     - ./web-servers.yaml
+    - ./owner.yaml
   

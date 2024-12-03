@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   description: Provides secure up-channel communication to CP from DP.
-  name: tp-cp-proxy
+  name: cp-proxy
 spec:
   lifecycle: production
   owner: team-platform

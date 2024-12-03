@@ -6,7 +6,7 @@ metadata:
 spec:
   dependsOn:
   - resource:postgresql
-  owner: team@example.com
+  owner: team-platform
   subcomponentOf: developer-hub
   type: service
   lifecycle: production

@@ -4,7 +4,7 @@ metadata:
   description: Quasar Broker component.
   name: quasar-broker
 spec:
-  owner: team@example.com
+  owner: team-platform
   subcomponentOf: pulsar
   type: service
   lifecycle: production

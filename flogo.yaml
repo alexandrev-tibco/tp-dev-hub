@@ -4,7 +4,7 @@ metadata:
   description: Flogo capability.
   name: flogo
 spec:
-  owner: team@example.com
+  owner: team-platform
   subcomponentOf: capabilities
   type: capability
   lifecycle: production

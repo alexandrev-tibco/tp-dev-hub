@@ -4,7 +4,7 @@ metadata:
   description: Quasar Bookie component.
   name: quasar-bookie
 spec:
-  owner: team@example.com
+  owner: team-platform
   subcomponentOf: pulsar
   type: service
   lifecycle: production

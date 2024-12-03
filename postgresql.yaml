@@ -4,6 +4,6 @@ metadata:
   description: PostgreSQL database resource.
   name: postgresql
 spec:
-  owner: team@example.com
+  owner: team-platform
   type: database
   lifecycle: production

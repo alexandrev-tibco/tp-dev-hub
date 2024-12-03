@@ -7,3 +7,4 @@ spec:
   owner: team-platform
   type: service
   lifecycle: production
+  subcomponentOf: oauth2-proxy-bw.yaml

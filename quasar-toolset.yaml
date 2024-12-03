@@ -4,7 +4,7 @@ metadata:
   description: Quasar Toolset component.
   name: quasar-toolset
 spec:
-  owner: team@example.com
+  owner: team-platform
   subcomponentOf: pulsar
   type: service
   lifecycle: production

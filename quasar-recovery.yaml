@@ -4,7 +4,7 @@ metadata:
   description: Quasar Recovery component.
   name: quasar-recovery
 spec:
-  owner: team@example.com
+  owner: team-platform
   subcomponentOf: pulsar
   type: service
   lifecycle: production

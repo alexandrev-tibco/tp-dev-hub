@@ -6,7 +6,7 @@ metadata:
 spec:
   dependsOn:
   - component:artifactmanager
-  owner: team@example.com
+  owner: team-platform
   subcomponentOf: businessworks
   type: service
   lifecycle: production

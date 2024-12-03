@@ -4,7 +4,7 @@ metadata:
   description: EMS service component.
   name: ems-service
 spec:
-  owner: team@example.com
+  owner: team-platform
   subcomponentOf: ems
   type: service
   lifecycle: production

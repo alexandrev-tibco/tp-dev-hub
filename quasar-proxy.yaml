@@ -4,7 +4,7 @@ metadata:
   description: Quasar Proxy component.
   name: quasar-proxy
 spec:
-  owner: team@example.com
+  owner: team-platform
   subcomponentOf: pulsar
   type: service
   lifecycle: production

@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tp-tibtunnel
+  name: tibtunnel
   description: Provides hybrid connectivity for a data plane.
 spec:
   owner: team-platform

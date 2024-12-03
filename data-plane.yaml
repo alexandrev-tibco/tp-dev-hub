@@ -6,7 +6,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:docs/data-plane
   links:
-    - url: catalog-graph?rootEntityRefs%5B%5D=component%3Adefault%2Fcp-router&maxDepth=2&selectedKinds%5B%5D=component&selectedKinds%5B%5D=resource&selectedKinds%5B%5D=system&selectedRelations%5B%5D=ownerOf&selectedRelations%5B%5D=ownedBy&selectedRelations%5B%5D=consumesApi&selectedRelations%5B%5D=apiConsumedBy&selectedRelations%5B%5D=apiProvidedBy&selectedRelations%5B%5D=providesApi&selectedRelations%5B%5D=parentOf&selectedRelations%5B%5D=childOf&selectedRelations%5B%5D=hasMember&selectedRelations%5B%5D=memberOf&selectedRelations%5B%5D=dependsOn&selectedRelations%5B%5D=dependencyOf&unidirectional=false&mergeRelations=true&direction=LR&showFilters=true
+    - url: "/catalog-graph?rootEntityRefs%5B%5D=component%3Adefault%2Fcp-router&maxDepth=2&selectedKinds%5B%5D=component&selectedKinds%5B%5D=resource&selectedKinds%5B%5D=system&selectedRelations%5B%5D=ownerOf&selectedRelations%5B%5D=ownedBy&selectedRelations%5B%5D=consumesApi&selectedRelations%5B%5D=apiConsumedBy&selectedRelations%5B%5D=apiProvidedBy&selectedRelations%5B%5D=providesApi&selectedRelations%5B%5D=parentOf&selectedRelations%5B%5D=childOf&selectedRelations%5B%5D=hasMember&selectedRelations%5B%5D=memberOf&selectedRelations%5B%5D=dependsOn&selectedRelations%5B%5D=dependencyOf&unidirectional=false&mergeRelations=true&direction=LR&showFilters=true"
       title: My Dashboard
       icon: dashboard
 spec:

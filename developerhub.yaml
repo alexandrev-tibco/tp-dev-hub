@@ -5,7 +5,7 @@ metadata:
   name: developerhub
 spec:
   dependsOn:
-  - postgresql
+  - resource:postgresql
   owner: team@example.com
   subcomponentOf: developer-hub
   type: service

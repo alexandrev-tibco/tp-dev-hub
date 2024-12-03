@@ -1,6 +1,6 @@
 # App Provisioning Flow
 
-![App Provisioning Flow](../image/slide21.png)
+![App Provisioning Flow](image/slide21.png)
 
 One important point of the flow is the provisioning of an app, as this will be something you will be doing very often once engaged with the platform. as commented the key component on that is the provisioner of the capability that it will provide this common interface that provides all the options that you can have for an application. to deploy an application on the platform as you probably already know you will need to create first an application build, that will include your deployment artifact, your ear file in case of buinessworks developments plus a set of metadata that is required to be able to do the provisioning. 
 

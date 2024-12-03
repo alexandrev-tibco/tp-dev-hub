@@ -1,6 +1,6 @@
 # Control Plane - Data Plane Communication
 
-![Image Placeholder](../image/slide21.png)
+![Image Placeholder](image/slide21.png)
 
 As commented some of the main responsibilities of this helper components include the communication aspect to the control plane, and as we already explain the control plane can reside on your premises in a self-hosted model or in the cloud in a more saas model so the security of that communication is critical for all of our customers. 
 

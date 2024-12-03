@@ -1,6 +1,6 @@
 # Integration Capability Topology
 
-![Integration Capability Topology](../image/slide25.png)
+![Integration Capability Topology](image/slide25.png)
 
 Now, we are going to take a look at the deployment model of one of this capabilities that are running inside a data plane and we’re going to see the integration ones as you can see in the diagram in the screen, as you can see there are again two different kind of components: the integration apps, our well known bw and flogo application running in its own namespaces and implementing the business logic. 
 

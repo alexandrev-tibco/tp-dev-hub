@@ -1,8 +1,8 @@
 # Observability Flow
 
-![Observability Flow #1](../image/slide27.png)
+![Observability Flow #1](image/slide27.png)
 
-![Observability Flow #2](../image/slide28.png)
+![Observability Flow #2](image/slide28.png)
 
 Each of the integration app will integrate those observability components to handle the different pillars of the observability. each of the application will have a fluent-bit sidecar responsible for doing the aggregation of the logs through an otel-collector that will define the backend where all this information it will be stored. also if of the application will use the opentelemetry format to share the metrics and traces for the application that the different opentelemetry collectors will make available to jaeger components to handle the tracing data and prometheus to handle the metrics data out of it.
 

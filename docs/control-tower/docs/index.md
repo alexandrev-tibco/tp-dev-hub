@@ -1,6 +1,6 @@
 # Control Tower Components
 
-![Control Tower Components](../image/slide29.png)
+![Control Tower Components](image/slide29.png)
 
 With all of that we do a good overview about the components and the behavior of them in a pure cloud-native data plane, but not only about cloud-native lives our architectures as the existing on-premises integration layers are also critical for the well behavior of our enterprises. and here is where the control tower takes place. 
 

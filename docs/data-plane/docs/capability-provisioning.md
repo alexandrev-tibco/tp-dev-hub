@@ -1,6 +1,6 @@
 # Capability Provisioning Flow
 
-![Capability Provisioning Flow](../image/slide24.png)
+![Capability Provisioning Flow](image/slide24.png)
 
 Provisioning of the capabilities is one of the main flows that the data plane will perform. capabilities can be provision at any moment since the inception of the data plane, so in that way the tibco platform follows an extensible approach where you can start with a single capability, for example your businessworks workloads and soon as you need more capabilities like for example messaging capabilities in that moment you can add it to an existing data plane. 
 

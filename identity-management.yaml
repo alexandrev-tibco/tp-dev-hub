@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: identity-management
+  name: cp-identity-management-service
   description: Authorizes users authenticated from IdPs; OAuth Server.
 spec:
   owner: team-platform

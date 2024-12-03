@@ -2,9 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   description: Provides hybrid connectivity for a data plane.
-  name: hybrid-proxy
+  name: cp-hybrid-proxy
 spec:
   lifecycle: production
   owner: team-platform
-  subcomponentOf: hybrid-server
+  subcomponentOf: cp-hybrid-server
   type: service

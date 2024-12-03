@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: cp-pengine
+  name: cp-permission-engine
   description: Enforces group- and user-based permissions.
 spec:
   owner: team-platform

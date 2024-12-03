@@ -8,4 +8,4 @@ spec:
   type: service
   lifecycle: production
   subcomponentOf: control-plane
-  dependsOn: ['component:default/cp-user-subscriptions', 'component:default/cp-permission-engine', 'component:default/cp-email-service', 'component:default/cp-identity-management-service', 'component:default/cp-hybrid-proxy']
+  dependsOn: ['component:default/cp-user-subscriptions', 'component:default/cp-permission-engine', 'component:default/cp-email-service', 'component:default/cp-identity-management-service', 'component:default/cp-hybrid-server']

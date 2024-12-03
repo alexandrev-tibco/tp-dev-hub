@@ -6,37 +6,57 @@ metadata:
 spec:
   type: url
   targets:
-    - ./system.yaml
-    - ./control-plane.yaml
-    - ./data-plane.yaml
     - ./admin-webserver.yaml
-    - ./web-servers.yaml
-    - ./identity-management.yaml
-    - ./cp-orchestrator.yaml
-    - ./cp-email-service.yaml
-    - ./cp-cronjobs.yaml
-    - ./cp-user-subscriptions.yaml
-    - ./tp-cp-pengine.yaml
-    - ./tp-cp-identity-provider.yaml
-    - ./tp-cp-proxy.yaml
-    - ./router.yaml
+    - ./artifact-manager.yaml
+    - ./businessworks.yaml
+    - ./bwprovisioner.yaml
+    - ./capabilities.yaml
+    - ./central-import.yaml
     - ./compute-services.yaml
+    - ./container-image-extractor.yaml
+    - ./control-plane.yaml
+    - ./core-components.yaml
+    - ./cp-cronjobs.yaml
+    - ./cp-email-service.yaml
+    - ./cp-orchestrator.yaml
+    - ./cp-user-subscriptions.yaml
+    - ./data-plane.yaml
+    - ./developer-hub.yaml
+    - ./developerhub.yaml
+    - ./docs
+    - ./ems-service.yaml
+    - ./ems.yaml
+    - ./flogo.yaml
+    - ./flogoprovisioner.yaml
     - ./hybrid-proxy.yaml
     - ./hybrid-server.yaml
-    - ./resource-set-operator.yaml
-    - ./container-image-extractor.yaml
-    - ./tp-cp-monitoring-service.yaml
-    - ./tp-tibtunnel.yaml
-    - ./provisioner-agent.yaml
-    - ./artifact-manager.yaml
-    - ./oauth2-proxy.yaml
-    - ./o11y-service.yaml
+    - ./identity-management.yaml
+    - ./integration-capability.yaml
     - ./jaeger-collector.yaml
     - ./jaeger-query.yaml
-    - ./opentelemetry-collector-contrib.yaml
-    - ./tp-dp-monitor-agent.yaml
-    - ./central-import.yaml
+    - ./o11y-service.yaml
+    - ./oauth2-proxy-bw.yaml
+    - ./oauth2-proxy-flogo.yaml
+    - ./oauth2-proxy.yaml
     - ./observability-services.yaml
-    - ./core-components.yaml
-    - ./integration-capability.yaml
-    - ./capabilities.yaml
+    - ./opentelemetry-collector-contrib.yaml
+    - ./postgresql.yaml
+    - ./provisioner-agent.yaml
+    - ./pulsar.yaml
+    - ./quasar-bookie.yaml
+    - ./quasar-broker.yaml
+    - ./quasar-proxy.yaml
+    - ./quasar-recovery.yaml
+    - ./quasar-toolset.yaml
+    - ./quasar-zoo.yaml
+    - ./resource-set-operator.yaml
+    - ./router.yaml
+    - ./system.yaml
+    - ./tp-cp-identity-provider.yaml
+    - ./tp-cp-monitoring-service.yaml
+    - ./tp-cp-pengine.yaml
+    - ./tp-cp-proxy.yaml
+    - ./tp-dp-monitor-agent.yaml
+    - ./tp-tibtunnel.yaml
+    - ./web-servers.yaml
+    

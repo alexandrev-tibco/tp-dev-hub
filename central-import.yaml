@@ -36,7 +36,7 @@ spec:
     - ./o11y-service.yaml
     - ./oauth2-proxy-bw.yaml
     - ./oauth2-proxy-flogo.yaml
-    - ./oauth2-proxy.yaml
+    - ./oauth2-proxy-devhub.yaml
     - ./observability-services.yaml
     - ./opentelemetry-collector-contrib.yaml
     - ./postgresql.yaml

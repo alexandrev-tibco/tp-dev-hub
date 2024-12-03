@@ -8,3 +8,4 @@ spec:
   type: service
   lifecycle: production
   subcomponentOf: control-plane
+  dependsOn: ['component:default/cp-hybrid-server']
